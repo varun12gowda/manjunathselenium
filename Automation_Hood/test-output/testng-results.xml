@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2023-07-07T09:18:04 IST" name="Default suite" finished-at="2023-07-07T09:18:35 IST" duration-ms="31468">
+    <groups>
+    </groups>
+    <test started-at="2023-07-07T09:18:04 IST" name="Default test" finished-at="2023-07-07T09:18:35 IST" duration-ms="31468">
+      <class name="V_tiger.TC_03_Test">
+        <test-method is-config="true" signature="LaunchingTheBrowser()[pri:0, instance:V_tiger.TC_03_Test@3e11f9e9]" started-at="2023-07-07T09:17:49 IST" name="LaunchingTheBrowser" finished-at="2023-07-07T09:18:04 IST" duration-ms="14925" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- LaunchingTheBrowser -->
+        <test-method is-config="true" signature="navigateToApplication()[pri:0, instance:V_tiger.TC_03_Test@3e11f9e9]" started-at="2023-07-07T09:18:04 IST" name="navigateToApplication" finished-at="2023-07-07T09:18:04 IST" duration-ms="26" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- navigateToApplication -->
+        <test-method signature="createContact()[pri:0, instance:V_tiger.TC_03_Test@3e11f9e9]" started-at="2023-07-07T09:18:04 IST" name="createContact" finished-at="2023-07-07T09:18:35 IST" duration-ms="30972" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createContact -->
+        <test-method is-config="true" signature="loggingOut()[pri:0, instance:V_tiger.TC_03_Test@3e11f9e9]" started-at="2023-07-07T09:18:35 IST" name="loggingOut" finished-at="2023-07-07T09:18:35 IST" duration-ms="1" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loggingOut -->
+        <test-method is-config="true" signature="tearDownTheBrowser()[pri:0, instance:V_tiger.TC_03_Test@3e11f9e9]" started-at="2023-07-07T09:18:36 IST" name="tearDownTheBrowser" finished-at="2023-07-07T09:18:38 IST" duration-ms="2540" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownTheBrowser -->
+      </class> <!-- V_tiger.TC_03_Test -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
+</testng-results>
