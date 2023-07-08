@@ -48,6 +48,7 @@ public class BaseClass {
 		driver.manage().window().maximize(); 
 		driver.manage().timeouts().implicitlyWait(10,TimeUnit.SECONDS );
 		
+		System.out.println("code added");
 		driver.get(utility.readingDataFromPropertFile("url"));
 		loginpage= new LoginPage(driver);
 		loginpage.getUserNameTF().sendKeys(utility.readingDataFromPropertFile("username"));
